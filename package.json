@@ -1,0 +1,59 @@
+{
+	"name": "@three-ws/alibaba-cloud-mcp",
+	"version": "0.1.0",
+	"description": "MCP server for Alibaba Cloud DashScope by three.ws — Qwen chat, embeddings, and model discovery using your own Alibaba Cloud API key.",
+	"type": "module",
+	"author": "nirholas",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://three.ws",
+	"mcpName": "io.github.nirholas/alibaba-cloud",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/alibaba-cloud-mcp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/three.ws/issues"
+	},
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"alibaba",
+		"alibaba-cloud",
+		"dashscope",
+		"qwen",
+		"qwen-max",
+		"qwen-plus",
+		"qwen-turbo",
+		"llm",
+		"embeddings",
+		"ai-agent",
+		"three.ws"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src",
+		"server.json",
+		"README.md",
+		"LICENSE"
+	],
+	"bin": {
+		"alibaba-cloud-mcp": "src/index.js"
+	},
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node --test \"test/**/*.test.mjs\"",
+		"inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.29.0"
+	}
+}

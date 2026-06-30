@@ -1,0 +1,65 @@
+{
+	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+	"name": "io.github.nirholas/alibaba-cloud",
+	"title": "Alibaba Cloud DashScope — Qwen",
+	"description": "Alibaba Cloud DashScope MCP by three.ws: Qwen chat, embeddings, and model discovery on your own account.",
+	"websiteUrl": "https://three.ws",
+	"icons": [
+		{
+			"src": "https://three.ws/three-ws-mcp-icon.svg",
+			"mimeType": "image/svg+xml",
+			"sizes": [
+				"any"
+			]
+		}
+	],
+	"repository": {
+		"url": "https://github.com/nirholas/alibaba-cloud-mcp",
+		"source": "github"
+	},
+	"version": "0.1.0",
+	"packages": [
+		{
+			"registryType": "npm",
+			"identifier": "@three-ws/alibaba-cloud-mcp",
+			"version": "0.1.0",
+			"runtimeHint": "npx",
+			"transport": {
+				"type": "stdio"
+			},
+			"environmentVariables": [
+				{
+					"name": "DASHSCOPE_API_KEY",
+					"description": "DashScope API key. Create one at https://bailian.console.alibabacloud.com/ → API Keys.",
+					"isRequired": true,
+					"isSecret": true,
+					"format": "string"
+				},
+				{
+					"name": "DASHSCOPE_MODEL_ID",
+					"description": "Default chat model id. Options: qwen-max, qwen-plus (default), qwen-turbo, qwen-long.",
+					"isRequired": false,
+					"format": "string"
+				},
+				{
+					"name": "DASHSCOPE_EMBED_MODEL_ID",
+					"description": "Default embedding model id. Defaults to text-embedding-v3.",
+					"isRequired": false,
+					"format": "string"
+				},
+				{
+					"name": "DASHSCOPE_BASE_URL",
+					"description": "Custom DashScope endpoint. Defaults to international (dashscope-intl.aliyuncs.com).",
+					"isRequired": false,
+					"format": "string"
+				},
+				{
+					"name": "DASHSCOPE_REGION",
+					"description": "Set to 'cn' to use the China endpoint (dashscope.aliyuncs.com). Ignored if DASHSCOPE_BASE_URL is set.",
+					"isRequired": false,
+					"format": "string"
+				}
+			]
+		}
+	]
+}
