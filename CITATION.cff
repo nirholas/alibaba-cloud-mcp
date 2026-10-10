@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "@three-ws/alibaba-cloud-mcp"
+abstract: "MCP server for Alibaba Cloud DashScope by three.ws — Qwen chat, embeddings, and model discovery using your own Alibaba Cloud API key."
+version: 0.1.4
+license: Apache-2.0
+repository-code: "https://github.com/nirholas/alibaba-cloud-mcp"
+url: "https://three.ws"
+authors:
+  - name: three.ws
+    website: "https://three.ws"

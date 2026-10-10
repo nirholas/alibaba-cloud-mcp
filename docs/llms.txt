@@ -1,0 +1,20 @@
+# @three-ws/alibaba-cloud-mcp
+
+> MCP server for Alibaba Cloud DashScope by three.ws — Qwen chat, embeddings, and model discovery using your own Alibaba Cloud API key.
+
+@three-ws/alibaba-cloud-mcp is a Model Context Protocol server from three.ws. Install: `npx -y @three-ws/alibaba-cloud-mcp`.
+
+## Docs
+
+- [README](https://github.com/nirholas/alibaba-cloud-mcp/blob/main/README.md): install, configuration, full reference
+- [Documentation site](https://nirholas.github.io/alibaba-cloud-mcp/): the README as a web page
+- [Full text for LLMs](https://nirholas.github.io/alibaba-cloud-mcp/llms-full.txt): README inlined
+- [AGENTS.md](https://github.com/nirholas/alibaba-cloud-mcp/blob/main/AGENTS.md): guidance for coding agents
+
+## Project
+
+- [Source](https://github.com/nirholas/alibaba-cloud-mcp)
+- [npm](https://www.npmjs.com/package/@three-ws/alibaba-cloud-mcp)
+- [three.ws](https://three.ws): the platform this is part of
+- [Issues](https://github.com/nirholas/alibaba-cloud-mcp/issues)
+- [MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.nirholas%2Falibaba-cloud)
