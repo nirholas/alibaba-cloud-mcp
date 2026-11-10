@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "alibaba-cloud": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@three-ws/alibaba-cloud-mcp"
+      ],
+      "env": {
+        "DASHSCOPE_API_KEY": "${DASHSCOPE_API_KEY}"
+      }
+    }
+  }
+}
