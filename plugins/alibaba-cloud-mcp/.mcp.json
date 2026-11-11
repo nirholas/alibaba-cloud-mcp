@@ -7,7 +7,7 @@
         "@three-ws/alibaba-cloud-mcp"
       ],
       "env": {
-        "DASHSCOPE_API_KEY": "${DASHSCOPE_API_KEY}"
+        "DASHSCOPE_API_KEY": "${DASHSCOPE_API_KEY:-}"
       }
     }
   }
